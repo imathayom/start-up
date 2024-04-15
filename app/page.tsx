@@ -20,7 +20,7 @@ export default function Home() {
                   <div className="col-md-12">
                     <div className="hero-content">
                       <h5>{headersList.get('host')}</h5>
-                      <h1>Weave from Krungthep Startup</h1>
+                      <h1>Weave from HyvBangkok</h1>
                         
                       <p>💥🌈🎉🥰  Something Awesome is Coming Soon. 👈🍫🎖️</p>                       
                     </div>
