@@ -1,15 +1,14 @@
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <head>
-        <title>Coming soon powered by Krungthep Startup</title>  
-           
+        <title>Coming soon powered by HyvBangkok</title>
       </head>
       <body>{children}</body>
     </html>
-  )
+  );
 }

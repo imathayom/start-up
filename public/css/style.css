@@ -1,87 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
- 
 
-
- 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
   font-size: 16px;
 }
 
 p {
-	font-family: 'Montserrat';
-	font-size: 14px;
+  font-family: "Montserrat";
+  font-size: 14px;
 }
 
- 
 html * {
-	text-rendering: optimizeLegibility !important;
+  text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
- 
-
- 
- 
 .home {
   padding: 100px 0 50px 0;
 }
-
- 
-
- 
 
 .home .hero-img img {
   max-width: 720px !important;
@@ -90,54 +166,44 @@ body {
 }
 
 .home h1 {
-	font-size: 28px;
-	font-weight: 600;
-	color: #FFFFFF;
-	color: #364655;
-	line-height: 1.2;
-	letter-spacing: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  color: #364655;
+  line-height: 1.2;
+  letter-spacing: 0;
 }
 
 .home p {
-	font-size: 16px;
-	font-weight: 500;
-	color: rgb(129, 129, 152);
-	max-width: 630px;
-	margin: 0 auto;
-	letter-spacing: 0;
-	line-height: 1.6;
-	margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(129, 129, 152);
+  max-width: 630px;
+  margin: 0 auto;
+  letter-spacing: 0;
+  line-height: 1.6;
+  margin-top: 15px;
 }
 
- 
-
 .home .client-list {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 
 .home .client-list ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .home .client-list ul li {
   display: inline;
-	margin: 0 20px;
+  margin: 0 20px;
 }
-
 
 .home .client-list ul li img {
   width: 100px;
-	opacity: 0.6;
-	cursor: pointer;
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .home .client-list ul li img:hover {
-	opacity: 0.9;
+  opacity: 0.9;
 }
-
- 
-
-   
- 
- 
- 
